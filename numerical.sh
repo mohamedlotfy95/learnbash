@@ -1,9 +1,10 @@
 #! /usr/bin/bash
-
+#Variables
 # Numerical expressions can also be calculated and stored in a variable using the syntax below:
 # var=$((expression))
 # echo "please enter the first number : " 
 # To prompt the user with a custom message, use the -p flag
+
 read -p "please enter the first number : "  x
 # echo "please enter the second number :"
 read -p   "please enter the second number :" y 
