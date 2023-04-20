@@ -1,7 +1,9 @@
 #! /bin/bash
-read -n 1 -p "Agree or Not" char
+read -n 1 -p "Agree or Not : " char
 
 case $char in
-    [Yy] ) echo "YES";;
-    [Nn] ) echo "NO";;
+    [Yy] ) echo -e "\nYES";;
+    [Nn] ) echo -e"\nNO";;
 esac
+
+
